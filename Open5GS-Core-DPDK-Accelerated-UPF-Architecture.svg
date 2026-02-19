@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="1000" height="600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .box { fill:#e3f2fd; stroke:#1e88e5; stroke-width:2; }
+    .upf { fill:#e8f5e9; stroke:#43a047; stroke-width:2; }
+    .dpdk { fill:#fff3e0; stroke:#fb8c00; stroke-width:2; }
+    .text { font-family:Arial; font-size:14px; fill:#000; }
+    .title { font-family:Arial; font-size:20px; font-weight:bold; }
+    .arrow { stroke:#000; stroke-width:2; marker-end:url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7"
+      refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
+
+  <text x="300" y="40" class="title">Open5GS 5G Core with DPDK Accelerated UPF Architecture</text>
+
+  <!-- UE -->
+  <rect x="50" y="200" width="120" height="60" class="box"/>
+  <text x="85" y="235" class="text">UE</text>
+
+  <!-- gNB -->
+  <rect x="220" y="200" width="120" height="60" class="box"/>
+  <text x="250" y="235" class="text">gNB</text>
+
+  <!-- AMF -->
+  <rect x="400" y="120" width="120" height="60" class="box"/>
+  <text x="435" y="155" class="text">AMF</text>
+
+  <!-- SMF -->
+  <rect x="400" y="280" width="120" height="60" class="box"/>
+  <text x="435" y="315" class="text">SMF</text>
+
+  <!-- UPF -->
+  <rect x="600" y="200" width="140" height="80" class="upf"/>
+  <text x="640" y="240" class="text">UPF</text>
+
+  <!-- DPDK -->
+  <rect x="580" y="320" width="180" height="80" class="dpdk"/>
+  <text x="620" y="360" class="text">DPDK Layer</text>
+  <text x="600" y="380" class="text">Poll Mode Driver</text>
+
+  <!-- Data Network -->
+  <rect x="820" y="200" width="140" height="60" class="box"/>
+  <text x="840" y="235" class="text">Data Network</text>
+
+  <!-- Arrows -->
+  <line x1="170" y1="230" x2="220" y2="230" class="arrow"/>
+  <line x1="340" y1="230" x2="600" y2="230" class="arrow"/>
+  <line x1="740" y1="230" x2="820" y2="230" class="arrow"/>
+  <line x1="460" y1="180" x2="460" y2="280" class="arrow"/>
+  <line x1="520" y1="310" x2="600" y2="260" class="arrow"/>
+
+  <!-- Labels -->
+  <text x="180" y="210" class="text">N3</text>
+  <text x="500" y="210" class="text">N3</text>
+  <text x="770" y="210" class="text">N6</text>
+  <text x="470" y="250" class="text">N4 (PFCP)</text>
+
+</svg>
