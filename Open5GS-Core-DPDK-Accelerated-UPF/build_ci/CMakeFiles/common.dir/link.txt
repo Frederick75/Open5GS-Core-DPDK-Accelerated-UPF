@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommon.a CMakeFiles/common.dir/src/common/log.c.o CMakeFiles/common.dir/src/common/config.c.o CMakeFiles/common.dir/src/common/net.c.o CMakeFiles/common.dir/src/common/timeutil.c.o CMakeFiles/common.dir/src/common/ringbuf.c.o
+/usr/bin/ranlib libcommon.a

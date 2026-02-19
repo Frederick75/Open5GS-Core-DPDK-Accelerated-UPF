@@ -1,0 +1,20 @@
+upf:
+  log_level: info
+
+  # PFCP (N4) server
+  n4_bind: "0.0.0.0:8806"
+
+  # GTP-U (N3) user plane
+  n3_bind: "0.0.0.0:2152"
+
+  # N6 towards data network (demo UDP forwarder)
+  n6_bind: "0.0.0.0:6000"
+  n6_peer: "127.0.0.1:6001"
+
+  dpdk:
+    enabled: false
+    eal_args: "-l 2-5 -n 4 --proc-type=auto"
+    port_id: 0
+    rx_queues: 2
+    tx_queues: 2
+    mbuf_cache: 256

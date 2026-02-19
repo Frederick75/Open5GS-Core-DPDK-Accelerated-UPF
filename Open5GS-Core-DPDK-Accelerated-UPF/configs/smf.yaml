@@ -1,0 +1,15 @@
+smf:
+  log_level: info
+  n4_local: "0.0.0.0:8805"
+  upf_n4_peer: "127.0.0.1:8806"
+  pfcp:
+    tx_timeout_ms: 500
+    max_retries: 3
+
+demo:
+  enable: true
+  ue_imsi: "001010123456789"
+  dnn: "internet"
+  snssai:
+    sst: 1
+    sd: "010203"

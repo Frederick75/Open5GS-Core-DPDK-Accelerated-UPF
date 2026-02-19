@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/smf.dir/src/smf/smf_main.c.o CMakeFiles/smf.dir/src/smf/smf_pfcp_cli.c.o CMakeFiles/smf.dir/src/smf/smf_sessions.c.o CMakeFiles/smf.dir/src/smf/smf_ngap_stub.c.o CMakeFiles/smf.dir/src/smf/smf_metrics.c.o CMakeFiles/smf.dir/src/smf/smf.c.o -o smf  libpfcp.a libcommon.a -lpthread 

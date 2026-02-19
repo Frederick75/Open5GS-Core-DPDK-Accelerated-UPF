@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpfcp.a CMakeFiles/pfcp.dir/src/pfcp/pfcp.c.o CMakeFiles/pfcp.dir/src/pfcp/pfcp_codec.c.o CMakeFiles/pfcp.dir/src/pfcp/pfcp_rules.c.o
+/usr/bin/ranlib libpfcp.a

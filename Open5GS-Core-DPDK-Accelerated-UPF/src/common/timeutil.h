@@ -1,0 +1,3 @@
+#pragma once
+#include <stdint.h>
+uint64_t time_now_ms(void);

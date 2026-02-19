@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/upf.dir/src/upf/upf_main.c.o CMakeFiles/upf.dir/src/upf/upf_pfcp_srv.c.o CMakeFiles/upf.dir/src/upf/upf_gtpu.c.o CMakeFiles/upf.dir/src/upf/upf_n6.c.o CMakeFiles/upf.dir/src/upf/upf_dataplane.c.o CMakeFiles/upf.dir/src/upf/upf_metrics.c.o CMakeFiles/upf.dir/src/upf/session_table.c.o -o upf  libpfcp.a libcommon.a -lpthread 

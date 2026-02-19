@@ -1,0 +1,10 @@
+/mnt/data/Open5GS-Core-DPDK-Accelerated-UPF/build_ci/CMakeFiles/common.dir
+/mnt/data/Open5GS-Core-DPDK-Accelerated-UPF/build_ci/CMakeFiles/pfcp.dir
+/mnt/data/Open5GS-Core-DPDK-Accelerated-UPF/build_ci/CMakeFiles/upf.dir
+/mnt/data/Open5GS-Core-DPDK-Accelerated-UPF/build_ci/CMakeFiles/smf.dir
+/mnt/data/Open5GS-Core-DPDK-Accelerated-UPF/build_ci/CMakeFiles/edit_cache.dir
+/mnt/data/Open5GS-Core-DPDK-Accelerated-UPF/build_ci/CMakeFiles/rebuild_cache.dir
+/mnt/data/Open5GS-Core-DPDK-Accelerated-UPF/build_ci/CMakeFiles/list_install_components.dir
+/mnt/data/Open5GS-Core-DPDK-Accelerated-UPF/build_ci/CMakeFiles/install.dir
+/mnt/data/Open5GS-Core-DPDK-Accelerated-UPF/build_ci/CMakeFiles/install/local.dir
+/mnt/data/Open5GS-Core-DPDK-Accelerated-UPF/build_ci/CMakeFiles/install/strip.dir
